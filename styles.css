@@ -1,0 +1,130 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    margin: 0;   
+    padding: 0;
+    color: white;
+    text-shadow: 0 0 1px  black;
+    background: linear-gradient(lightskyblue, pink) ;
+    /* background-color: #a2d2ff; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bff-img {
+    /* image-rendering: auto; */
+    width: 200px;
+    height: 200px; 
+
+    border-radius: 50%; 
+    border: 6px solid #EFB0C9;
+    margin-bottom: 20px;
+}
+
+#bday-age {
+
+    background-color:#EFB0C9 ;
+    padding: 3px 10px;
+    /* border: none; */
+    border-radius: 9px;
+    /* margin-bottom: 30px; */
+}
+
+#bday-date {
+    background-color:#EFB0C9 ;
+    padding: 3px 10px;
+    /* border: none; */
+    border-radius: 9px;
+}
+
+.gift-section{
+    margin-top: 30px;
+}
+
+.gift-title{
+    margin-bottom: 2px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-img {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-image: url(/images/ekaterina-shevchenko-ZLTlHeKbh04-unsplash.jpg)
+    ;
+    /* background: linear-gradient(lightskyblue, white ); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;;
+}
+
+.gif1:hover {
+    border: transparent;
+    background-image: url(/images/Tcn8.gif);
+    background-size: 300px;
+    background-position: center;
+
+}
+
+.gif2:hover {
+    border: transparent;
+    background-image: url(/images/1kR5.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gif3:hover {
+    border: transparent;
+    background-image: url(/images/17Em.gif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.gif4 {
+   
+    height: 200px;
+}
+.gif4:hover {
+    border: transparent;
+    background-image: url(/images/fysm.gif);
+    /* height: 100px; */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+
+}
+
+
+
+h3, h4 {
+    margin: 0 0 20px 0;
+}
+
+/* h3 span, h4 span {
+    background-color:#EFB0C9 ;
+    padding: 3px 10px;
+} */
+
+.footer {
+    width: 400px;
+    /* text-align: center; */
+    margin:40px auto 20px auto;
+    text-shadow: 0 0 1px black;;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
